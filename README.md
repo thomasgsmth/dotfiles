@@ -12,6 +12,12 @@ Reload personal bash configuration.
 
     source ~/.bash_profile
 
+## Mac OS X configuration
+
+Configure Mac OS X
+
+    source ~/.osx
+
 ### Acknowledgements
 
 - Mathias Bynens and his [dotfiles repository](https://github.com/mathiasbynens/dotfiles)

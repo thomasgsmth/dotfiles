@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Personal settings for Mac OS X (aka Darwin)
 # called from ~/.bashrc
 
@@ -25,5 +27,3 @@ pman() {
     man -t $@ | open -f -a /Applications/Preview.app
 }
 
-# Avoid creating .DS_Store files on network volumes
-defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
