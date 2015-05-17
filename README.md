@@ -1,10 +1,12 @@
 # Dot Files
 
+Personal configuration files.
+
 ## Installation
 
-Copy configuration files to home directory.
+Install configuration files to home directory.
 
-    cd; curl -#L https://github.com//tarball/master | tar -xzv --strip-components 1 --exclude={README.md}
+    cd; curl -#L https://github.com/thomasgsmth/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,LICENSE}
 
 ### Acknowledgements
 
