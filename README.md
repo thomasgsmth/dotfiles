@@ -8,6 +8,10 @@ Install configuration files to home directory.
 
     cd; curl -#L https://github.com/thomasgsmth/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,LICENSE}
 
+Reload personal bash configuration.
+
+    source ~/.bash_profile
+
 ### Acknowledgements
 
 - Mathias Bynens and his [dotfiles repository](https://github.com/mathiasbynens/dotfiles)
