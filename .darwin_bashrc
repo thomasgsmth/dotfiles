@@ -9,5 +9,21 @@ if which -s brew 2> /dev/null && [ -f ~/.github/homebrew ]; then
     export HOMEBREW_GITHUB_API_TOKEN=$(< ~/.github/homebrew)
 fi
 
+# Aliases
+
+# wifi on|off
+alias wifi="networksetup -setairportpower en0"
+
+# brew install blueutil
+# bt on(1)|off(0)
+alias bt="/usr/local/bin/blueutil power"
+
+# Functions
+
+# Open man page as a pdf in Preview
+pman() {
+    man -t $@ | open -f -a /Applications/Preview.app
+}
+
 # Avoid creating .DS_Store files on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true

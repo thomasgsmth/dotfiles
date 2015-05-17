@@ -12,8 +12,6 @@ fi
 
 alias ls='ls -F'
 alias ll='ls -AFlth'
-alias wifi="networksetup -setairportpower en0"
-alias bt="/usr/local/bin/blueutil power"
 alias sha1='openssl sha1'
 alias grep='grep --color=auto'
 
@@ -27,7 +25,3 @@ PROMPT_COMMAND='history -a'
 
 # Functions
 
-# Open man page as a pdf in Preview
-pman() {
-    man -t $@ | open -f -a /Applications/Preview.app
-}
