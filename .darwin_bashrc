@@ -1,0 +1,13 @@
+# Personal settings for Mac OS X (aka Darwin)
+# called from ~/.bashrc
+
+export CLICOLOR=1
+export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
+
+# If Homebrew is installed, set GitHub API token.
+if which -s brew 2> /dev/null && [ -f ~/.github/homebrew ]; then
+    export HOMEBREW_GITHUB_API_TOKEN=$(< ~/.github/homebrew)
+fi
+
+# Avoid creating .DS_Store files on network volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
