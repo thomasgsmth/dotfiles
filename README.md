@@ -10,5 +10,5 @@ Install configuration files to home directory.
 
 ### Acknowledgements
 
-Mathias Bynens and his [dotfiles repository](https://github.com/mathiasbynens/dotfiles)
-Barry Clark and his [bashstrap repository](https://github.com/barryclark/bashstrap)
+- Mathias Bynens and his [dotfiles repository](https://github.com/mathiasbynens/dotfiles)
+- Barry Clark and his [bashstrap repository](https://github.com/barryclark/bashstrap)
