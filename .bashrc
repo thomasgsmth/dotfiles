@@ -23,5 +23,14 @@ export HISTCONTROL=ignoredups
 shopt -s cmdhist
 PROMPT_COMMAND='history -a'
 
+# Python development
+# pip should only run if there is a virtualenv currently activated
+export PIP_REQUIRE_VIRTUALENV=true
+
 # Functions
+
+# Function to run pip to install or upgrade global (python) package
+gpip(){
+    PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
 
